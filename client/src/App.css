@@ -1,0 +1,112 @@
+p{
+  margin:0;
+  font-family: "Copperplate";
+  font-size: 50px;
+  font-style: italic;
+  color:white;
+}
+
+
+/* form */
+form {
+  border-radius: 20px;
+  margin:0 auto;
+  width:70%;
+}
+
+/* file upload button */
+.fileInput{
+  height: auto;
+  font-size: 16px;
+  background: white;
+  border-radius: 50px;
+  width:250px;
+  outline:none;
+  border: none;
+  transition: all 0.25s;
+  margin-left: 20px;
+}
+
+::-webkit-file-upload-button{
+  color:white;
+  background: #1d3557;
+  padding:8px;
+  border-radius: 50px;
+  transition: all 0.25s;
+  border: none;
+}
+
+::-webkit-file-upload-button:hover{
+  background:white;
+  color:#1d3557;
+  border: 1px solid;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+/* submit button */
+
+button{
+  height: 37px;
+  font-size: 16px;
+  color:white;
+  font-weight: 100;
+  border:none;
+  text-transform: uppercase;
+  background:#1d3557;
+  border-radius: 50px;
+  width:100px;
+  outline:none;
+  transition: all 0.25s;
+  margin-left: 20px;
+}
+
+button:hover{
+  background:white;
+  color:#1d3557;
+  box-shadow: 0 0.5em 0.5em -0.4em #1d3557;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+
+/* file description */
+#fileDescription{
+  border:none;
+  background:white;
+  border: 2px solid #1d3557;
+  width: 350px;  
+  margin-left: 105px;
+  height:30px
+}
+
+/* table */
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  /* margin-top: 0; */
+  margin: 0 auto;
+  background-color:#Fdfff5;
+}
+
+thead{
+  text-align: center;  
+}
+
+td{
+  /* width:10%; */
+  border: 1px solid black;
+  text-align: center;
+  padding: 6px;
+}
+
+.app{
+  margin:0;
+  padding:0;
+  height: 100vh;
+  background:linear-gradient(#5b86e5,transparent);
+  background-color:#36d1dc;
+}
